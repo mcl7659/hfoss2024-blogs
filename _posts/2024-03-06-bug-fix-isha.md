@@ -15,16 +15,21 @@ categories:
 author: Isha Errande
 ---
 
-For my contribution, I decided to create this website and post this sample blog post. I decided to do this because I wanted to help provide a blogging platform for SJ to allow the students of HFOSS to have a place to submit their blog posts for the last half of the semester.
+## Introduction to the Community 
 
-This blog post can be used in several ways:
-- Reading it should provide a tutorial explaining some of the basics of how to use this blog for HFOSS students who will be adding posts to it 
-- Looking at its source code can provide a template that can be reused to help kickstart the writing of new blog posts, or to demonstrate some examples of how to use markdown
-<!-- - Demonstrate (to some extent) what a well-written, detailed blog post looks like. (That said this post will probably be longer than is expected for the actual HFOSS assignments because it may contain a lot of tutorial content)  -->
-- As documentation for any future readers who are interested in the rationale behind the existence of this site (such as Future HFOSS students, TA's, or FOSSRIT org admins)
+The community I chose came from the recommended list of communities that I found through a link in the CHAOSS presentation
+slides. I am relatively new to contributing to FOSS communities, so I wanted to find something that would get me familiar 
+with contributing for the first time as my bug fix. 
 
-## What is this site?
-This is a site that is built using Jekyll, a tool that allows you to build websites. It is natively supported by [GitHub pages](https://docs.github.com/en/pages) - a free website hosting service provided by GitHub. It is quite commonly used by developers to create their own personal or portfolio websites.
+The community I chose was [Wincuts](https://github.com/LyubomirT/wincuts)  It is a relatively very new FOSS project that
+is looking for more contributers. The software is in charge of setting up and managing custom keyboard shortcuts. The
+primary languages that the software is coded in are python,HTML, and CSS. The main contributer of this community is 
+LyubomirT. He was very welcoming when I asked to be assigned and stressed that I was new to contributing. This made
+me even more willing to contribute to this community. 
+
+From the Comm Arch presentations good communities have good documentation, contributing guidelines, and a welcoming 
+community. I chose this community because the languages were semi familiar to me, as my specialty is low level languages
+with some experience in python. 
 
 ## Why not something else, like WordPress?
 HFOSS is a class designed to help teach some of the basics behind open source. By using git and GitHub to submit the blog posts, there are more opportunities to practice using the tools that are used by real-world projects. Additionally, the WordPress sites from previous classes are no longer around and are hard to point to as examples that are particularly positive or negative.
