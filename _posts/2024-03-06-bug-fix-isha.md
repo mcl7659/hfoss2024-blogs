@@ -33,7 +33,18 @@ with some experience in python.
 
 ## The Issue
 
-So I reached out and was assigned the issue relating to moving icons to a directory and relinking them. 
+So I reached out and was assigned the issue relating to moving icons to a directory and relinking them. This was issue #4.
 ![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/c34cbb76-e652-412c-81ff-faf8c91848cd)
+
+At first I was a bit intimidated to contribute as I was getting some issues with github. I usually would create a branch 
+and merge. I was not familiar with forking. After resolving that I simply moved the two icons into a seperate directory, and created a pull request. 
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/9393433b-1a18-404b-8a7f-71c946da3e27)
+
+Unfortunately, I did not completely fix the issue. The icons are supposed to be relinked. I am planning on making this apart
+of my bigger contribution assignment, however i did get to a start on where the changes may need to be made. 
+
+
+
+
 
 
