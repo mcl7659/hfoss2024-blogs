@@ -7,12 +7,12 @@ layout: post
 
 # Uncomment only one of the below categories
 categories: 
-#- Bug Fix
+- Bug Fix
 #- Contribution
 
 
 # Enter your name below
-author: Adrian Edwards
+author: Isha Errande
 ---
 
 For my contribution, I decided to create this website and post this sample blog post. I decided to do this because I wanted to help provide a blogging platform for SJ to allow the students of HFOSS to have a place to submit their blog posts for the last half of the semester.
