@@ -45,11 +45,11 @@ and merge. I was not familiar with forking. After resolving that I simply moved 
 
 Unfortunately, I did not completely fix the issue. The icons are supposed to be relinked. I am planning on making this apart
 of my bigger contribution assignment, however i did get to a start on where the changes may need to be made. 
-'''
+```
 self.setWindowIcon(QIcon("logo.png"))
 self.tray_icon = QSystemTrayIcon(self)
 self.tray_icon.setIcon(QIcon("logo.png"))  # Set your own icon
-'''
+```
 I was unfamiliar with teh self.tray_icon.setIcon() method. I looked at python documentation, however I still got stuck. 
 Due to time constraints, I have settled with my current contribution for a bug fix, as I contacted the contributor very 
 last minute. In the future, I will make sure to clarify my questions early on in the main contribution. 
