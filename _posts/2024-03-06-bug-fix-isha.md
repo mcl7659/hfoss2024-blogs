@@ -47,7 +47,6 @@ Unfortunately, I did not completely fix the issue. The icons are supposed to be 
 of my bigger contribution assignment, however i did get to a start on where the changes may need to be made. 
 '''
 self.setWindowIcon(QIcon("logo.png"))
-# Create a system tray icon
 self.tray_icon = QSystemTrayIcon(self)
 self.tray_icon.setIcon(QIcon("logo.png"))  # Set your own icon
 '''
