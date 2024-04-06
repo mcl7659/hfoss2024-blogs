@@ -31,6 +31,9 @@ From the Comm Arch presentations good communities have good documentation, contr
 community. I chose this community because the languages were semi familiar to me, as my specialty is low level languages
 with some experience in python. 
 
+It was challenging to find a community because of how intimidating some of the content was for me to at least partially
+understand. A lot of my time was spent finding this community.
+
 ## The Issue
 
 So I reached out and was assigned the issue relating to moving icons to a directory and relinking them. This was issue #4.
@@ -42,8 +45,15 @@ and merge. I was not familiar with forking. After resolving that I simply moved 
 
 Unfortunately, I did not completely fix the issue. The icons are supposed to be relinked. I am planning on making this apart
 of my bigger contribution assignment, however i did get to a start on where the changes may need to be made. 
-
-
+'''
+self.setWindowIcon(QIcon("logo.png"))
+# Create a system tray icon
+self.tray_icon = QSystemTrayIcon(self)
+self.tray_icon.setIcon(QIcon("logo.png"))  # Set your own icon
+'''
+I was unfamiliar with teh self.tray_icon.setIcon() method. I looked at python documentation, however I still got stuck. 
+Due to time constraints, I have settled with my current contribution for a bug fix, as I contacted the contributor very 
+last minute. In the future, I will make sure to clarify my questions early on in the main contribution. 
 
 
 
