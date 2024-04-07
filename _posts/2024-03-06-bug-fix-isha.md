@@ -50,7 +50,7 @@ self.setWindowIcon(QIcon("logo.png"))
 self.tray_icon = QSystemTrayIcon(self)
 self.tray_icon.setIcon(QIcon("logo.png"))  # Set your own icon
 ```
-I was unfamiliar with teh self.tray_icon.setIcon() method. I looked at python documentation, however I still got stuck. 
+I was unfamiliar with the self.tray_icon.setIcon() method. I looked at python documentation, however I still got stuck. 
 Due to time constraints, I have settled with my current contribution for a bug fix, as I contacted the contributor very 
 last minute. In the future, I will make sure to clarify my questions early on in the main contribution. 
 
