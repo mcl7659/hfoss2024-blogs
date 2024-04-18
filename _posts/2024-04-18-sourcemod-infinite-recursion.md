@@ -80,10 +80,15 @@ Luckily the fix is quite simple - there's already a variable `g_ShouldCatchSpew`
 
 And with that, the `sm_rcon sm_stats` command now works as expected without freezing the server! I opened a pull request with the fix, and hopefully it will be merged soon.
 
-This was a fun bug to investigate, I learned a lot about how SourceMod interfaces with the Source engine internals. It's neat how they capture console output like that.
-
 After that, I made a PR to get the bug fix merged, since other people were facing that issue. A maintainer said it was nice to have that bug fixed, and then asked me to make a slight style change, which I did:
 
 ![communications with maintainers showing a request to change a brace style](../assets/2024-04-18-sourcemod-infinite-recursion/maintainer_comms.png)
+
+And then it was merged!
+
+![a merged GitHubPR](../assets/2024-04-18-sourcemod-infinite-recursion/merged_pr.png)
+
+
+This was a fun bug to investigate, I learned a lot about how SourceMod interfaces with the Source engine internals. It's neat how they capture console output like that.
 
 
