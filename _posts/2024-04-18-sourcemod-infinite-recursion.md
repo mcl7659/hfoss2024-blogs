@@ -62,6 +62,8 @@ It turns out that on "old" Source engine branches, to capture the output of a co
 
 The problem arises if `ServerCommandEx` is called recursively. In that case, the `sm_conhook_start` and `sm_conhook_stop` commands get added to the console command buffer again, even though the hooks are already active. This causes the output callback to recurse into itself endlessly, leading to the server freeze.
 
+![a screenshot of the stack overflow](../assets/2024-04-18-sourcemod-infinite-recursion/stackoverflow.png)
+
 Luckily the fix is quite simple - there's already a variable `g_ShouldCatchSpew` to track if the hooks should be active and to only allow executing the conhook commands if it's true. So I simply made it so it skips adding the hook commands again if the variable is true:
 
 ```c
@@ -81,4 +83,7 @@ And with that, the `sm_rcon sm_stats` command now works as expected without free
 This was a fun bug to investigate, I learned a lot about how SourceMod interfaces with the Source engine internals. It's neat how they capture console output like that.
 
 After that, I made a PR to get the bug fix merged, since other people were facing that issue. A maintainer said it was nice to have that bug fixed, and then asked me to make a slight style change, which I did:
+
+![communications with maintainers showing a request to change a brace style](../assets/2024-04-18-sourcemod-infinite-recursion/maintainer_comms.png)
+
 
