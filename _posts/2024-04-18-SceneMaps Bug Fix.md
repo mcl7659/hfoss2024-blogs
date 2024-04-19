@@ -31,7 +31,7 @@ I'm very much involved in the local rochester music scene, so I found the concep
 ##The Issue:
 The repo's list of bands was not up to date, and the entire repo did not have any licenses. That was mostly what I could do the fastest while I read through the code and got an idea of what future way I could contribute.
 It was relatively simple, I just updated whatever pieces of information I already knew, searched through the dependencies and tech that it used to see if there were any conflicting licenses with the one we agreed on (which was the Hippocratic License), and then pushed the license to the repo.
-As for updating things, They walked me through how to do it nd I pushed those changes on their account. I got these accepted easily, it's only a team of 3 people so I was able to just easily get commit access.
+As for updating things, They walked me through how to do it nd I pushed those changes on their computer. I got these accepted easily, it's only a team of 3 people so I was able to just easily get commit access.
 
 Commit Links:
 https://github.com/Scene-Links/Scene-Links/commit/ad8579790b3bc2bdccd3b0ca3452cd433faff130
