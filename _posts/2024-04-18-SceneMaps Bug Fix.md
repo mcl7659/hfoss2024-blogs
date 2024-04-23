@@ -34,6 +34,7 @@ It was relatively simple, I just updated whatever pieces of information I alread
 As for updating things, They walked me through how to do it nd I pushed those changes on their computer. I got these accepted easily, it's only a team of 3 people so I was able to just easily get commit access.
 
 Commit Links:
-[Licensing](https://github.com/Scene-Links/Scene-Links/commit/ad8579790b3bc2bdccd3b0ca3452cd433faff130)
-[Name corrections](https://github.com/Scene-Links/Scene-Links/commit/5f5aec843ec184d097215cc693967d9a98fc1e6b)
-[Name additions](https://github.com/Scene-Links/Scene-Links/commit/99b3227cea216cb0bc86d24ddc618cb28d488b89)
+
+- [Licensing](https://github.com/Scene-Links/Scene-Links/commit/ad8579790b3bc2bdccd3b0ca3452cd433faff130)
+- [Name corrections](https://github.com/Scene-Links/Scene-Links/commit/5f5aec843ec184d097215cc693967d9a98fc1e6b)
+- [Name additions](https://github.com/Scene-Links/Scene-Links/commit/99b3227cea216cb0bc86d24ddc618cb28d488b89)
