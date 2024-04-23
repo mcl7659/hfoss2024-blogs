@@ -8,7 +8,7 @@ layout: post
 
 # Uncomment only one of the below categories
 categories:
-Bug Fix
+- Bug Fix
 #- Contribution
 
 
@@ -35,7 +35,7 @@ This project has no onboarding features or other relevant resources. The README.
 
 ### The Bug Fix
 
-![pastel pink, yellow, purple, and green controllers](../assets/2024-04-21-schneider/pastel-joy-con.jpg)
+![pastel pink, yellow, purple, and green controllers](../assets/2024-04-21-schneider/pastel-joycon.jpg)
 
 Much of this program is above my level of understanding, so there were few bug fixes I felt I had a chance to resolve. My solution was to resolve Issue #83: "Pastel Joy-Cons Hex Codes?" The current user interface displays hex colors for eight standard colors (body + buttons), with space for eight more. While the Issue only asks for the Pastel Pink and Yellow colors, I added all four Pastel colors (Pink, Yellow, Purple, and Green) to the program.
 
@@ -55,9 +55,9 @@ Here, I have many issues trying to debug the Visual Studio solution. I received 
 
 After fiddling with the UI some more, I found a label titled "Xenoblade Grips". Knowing that the word Xenoblade was unlikely to be used frequently, I searched the project for the word and found the correct file, named "frmJoyConColorPicker.cs". Using the foundations for color slots 17-20 and 25-28 left in the C# source code file, I added the labels and RGB codes for the eight new pastel colors.
 
-![edit to frmJoyConColorPicker.cs code](../assets/2024-04-15-schneider/code-snippet-3.png)
-![my new version of the color select screen](../assets/2024-04-21-schneider/retail-color-2.png)
+![edit to frmJoyConColorPicker.cs code](../assets/2024-04-15-schneider/code-snippet-3.jpg)
+![my new version of the color select screen](../assets/2024-04-21-schneider/retail-color-2.jpg)
 
 Once ensuring my bug fix worked, I pushed my changes to my GitHub fork, and created a pull request to merge my project with the main branch by CTCaer. While I do not expect the changes to be merged (abandoned project), you can see the pull request below.
 
-![final pull request](../assets/2024-04-21-schneider/pull-request.png)
+![final pull request](../assets/2024-04-21-schneider/pull-request.jpg)
