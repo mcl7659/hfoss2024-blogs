@@ -35,7 +35,7 @@ The github community works together mainly to fix specific site issues, add new 
 - The contribution doc was pretty detailed and explained step by step how to contribute.
 - The project has a license, readme, and code of conduct
 - There are 1,000+ open issues, so there are many things that can be fixed or contributed to  
-![Last commit](https://cdn.discordapp.com/attachments/593856325641830489/1226861046820634644/image.png?ex=66264e63&is=6613d963&hm=c149d81a7a3eaf6ad427d16525c9b0bf469d2eaf8a1982c3e75219631944d2d2&)  
+![Last commit](https://imgur.com/a/jRW2b58)  
 ![Contributors](https://cdn.discordapp.com/attachments/593856325641830489/1226861977620582450/image.png?ex=66264f41&is=6613da41&hm=df4493e986d2f4eed960e928ce7fd0401106df138f986232294fa4d3a8b75b82&)  
 ![Important docs](https://cdn.discordapp.com/attachments/593856325641830489/1226854241537359962/image.png?ex=6626480d&is=6613d30d&hm=df2e5a3c00a4971078e754586ad7452677cb07a125b2dade5d26fdd12997f0cb&)  
 ![Issues](https://cdn.discordapp.com/attachments/593856325641830489/1226861411767029760/image.png?ex=66264eba&is=6613d9ba&hm=e82fe185558faa8cb56ca6b1993feef3b1d4f8aa0f7c2ab551dbd412d03c536b&)
