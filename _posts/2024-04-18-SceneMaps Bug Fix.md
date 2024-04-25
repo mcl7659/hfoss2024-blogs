@@ -7,7 +7,7 @@ layout: post
 
 # Uncomment only one of the below categories
 categories: 
- Bug Fix
+- Bug Fix
 #- Contribution
 
 
