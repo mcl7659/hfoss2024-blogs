@@ -18,7 +18,7 @@ My next step was to look through these issues, sorted by tag of course, and pick
 
 What I considered for issues were topics within those graphics APIs I was familiar with and things I could get done within a reasonable time frame. By a reasonable time frame, I set myself a deadline of May 1st to get my issue fixed and a PR submitted for review. That way, if I messed up and took longer, I had time to recover and get it done. Alternatively, swap to another issue if needed. Once those factors were considered, it knocked out some issues that were multi-platform issues. 
 
-![A photo of a multi-platform issue](../assets/2024-04-25-Scissor-Rectangle-Fix-MonoGame/Multi-Platform-Filters.PNG)
+![A photo of a multi-platform issue](../assets/2024-04-25-Scissor-Rectangle-Fix-MonoGame/Multi-Platform-Issue.PNG)
 
 Now that I had my requirements for an issue, I went from most-recent issues to least-recent issues. The issue I ended up choosing was an inconsistency between graphics platforms regarding a Scissor Rectangle default implementation. This differed a lot from my bug fix as my bug fix had to do with the content pipeline of MonoGame and the documentation of MonoGame. The graphics component of MonoGame differs a lot as it is a lot lower level within MonoGame whereas the Content Pipeline and Documentation is very high level.
 
