@@ -34,8 +34,7 @@ I first investigated CMark. However, after some investigating, I managed to loca
 which clearly indicated that CMark was not at fault. This left Prism and Qt. At this point, I wasn't sure how to check if Qt was working right, and started digging. Finally, I found out how to get html from Qt. The object I was trying to get the data from was called QTextEditor, and allowed the user to extract the data inside by calling .toHtml(). Reading this showed me the html in Qt was just fine. This then led me to start modifying the html.
 
 ## Modifying the HTML
-<img src="../assets/2024-04-29-prism-mc-image-width-and-list/parsing_html.png" height="400"/>
-<br>
+![](../assets/2024-04-29-prism-mc-image-width-and-list/parsing_html.png)
 
 My initial thought was to use a Regex. I made a basic call as follows
 ![Cursed Regex](../assets/2024-04-29-prism-mc-image-width-and-list/regex.png)
