@@ -3,7 +3,7 @@ layout: post
 # If your post title is longer or more complicated
 # than can be represented in the filename, uncomment the following line
 # and specify a custom title
-title:  "Luke Knofczynski Prism MC Contribution and Fix"
+title: "Luke Knofczynski Prism MC Contribution and Fix"
 
 # Uncomment only one of the below categories
 categories: 
