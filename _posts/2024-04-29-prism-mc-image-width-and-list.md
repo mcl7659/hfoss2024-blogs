@@ -41,8 +41,10 @@ My initial thought was to use a Regex. I made a basic call as follows
 that would capture and replace specific data. Testing showed that this worked, and which can be seen in the above browser image. I ended up removing the image source tag for the width property, as if the image didn't exist, the width would be respected. However, talking with the community made me understand how bad of an idea Regex with HTML is. However, this discussion ended up leading me to believe Prism's custom renderer (which I just discovered thanks to the converstaion) might be at fault. I went to sleep thinking I could spend some time the next day working on it.
 
 When I woke up, I found that another maintainer had patched Prism's **ImplicitSize()** renderer and [fixed the width bug after my discussion](https://github.com/PrismLauncher/PrismLauncher/pull/2341). However, there was still a bug closely related, and I focused on that. That is, images following unordered lists would sometimes get appended to the list's last item and mess up the formatting.
+
 ![Image appended to item in the list](../assets/2024-04-29-prism-mc-image-width-and-list/appended_image.png)
-So my bug fix was still on. After some thinking, I wrote a parser using QString built-in functions, and used it locate any \</ul> tags that were followed by <img within 3 characters. It then inserted a \<br> tag between them. Satisfied with this, and seeing it fixed most bugs, I pushed a PR.
+
+So my bug fix was still on. After some thinking, I wrote a parser using QString built-in functions, and used it locate any \</ul> tags that were followed by \<img within 3 characters. It then inserted a \<br> tag between them. Satisfied with this, and seeing it fixed most bugs, I pushed a PR.
 ![Bug Fix](../assets/2024-04-29-prism-mc-image-width-and-list/PR.png)
 
 ## The PR
